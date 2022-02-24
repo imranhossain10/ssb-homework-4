@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Sikhbe Sobai Home Work - 4</title>
+</head>
+
+<body>
+    <h1>Google Map</h1>
+    <iframe class="googleMap"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6144.299297771014!2d90.44130087648475!3d23.696611731195603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b9c3cfde1cf7%3A0x8e32fe3e2598e322!2sJurain%20Medical!5e0!3m2!1sen!2sbd!4v1645379361805!5m2!1sen!2sbd"
+        allowfullscreen="" loading="lazy"></iframe>
+        <h1><a href="pages/semantic.html">Semantic Markup</a></h1>
+    <h1>YouTube</h1>
+    <iframe class="youTubeFrame ml-3" src="https://www.youtube.com/embed/l_QR6fVCTOU" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    <iframe class="youTubeFrame" src="https://www.youtube.com/embed/l_QR6fVCTOU" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    <iframe class="youTubeFrame" src="https://www.youtube.com/embed/l_QR6fVCTOU" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    <h1>The kbd element </h1>
+    <p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text</p>
+    <h1>The from fieldset and legend element</h1>
+    <form action="#">
+        <fieldset>
+            <legend>input Fields</legend>
+            <h1>The input and label element</h1>
+            <input type="radio" id="html" value="html" name="lang"> <label for="html">Html</label>
+            <input type="radio" id="css" value="css" name="lang"> <label for="css">css</label>
+            <input class="mb-4" type="radio" id="javascript" value="javascript" name="lang"> <label
+                for="javascript">javascript</label> <br>
+            <label for="fname">First Name</label>
+            <input class="mb-4 d-block" type="text" id="fname">
+            <label for="lname">Last Name</label>
+            <input class="mb-4 d-block" type="text" id="lname">
+            <label for="email">Email</label>
+            <input class="mb-4 d-block" type="email" id="email">
+            <label for="date">Date</label>
+            <input class="mb-4 d-block" type="date" id="date">
+            <input type="submit" name="submit" id="submit" value="submit">
+        </fieldset>
+    </form>
+    <h1>The <mark>ol</mark> <mark>ul</mark> and <mark>li</mark> elements</h1>
+    <ol>
+        <!-- The ol element defines an ordered list: -->
+        <li>Coffe</li> <!-- The li element defines an list item: -->
+        <li>Tea</li> <!-- The li element defines an list item: -->
+        <li>Milk</li> <!-- The li element defines an list item: -->
+    </ol>
+    <!-- The ul element defines an unordered list: -->
+    <ul>
+        <!-- The ul element defines an unordered list: -->
+        <li>Coffe</li> <!-- The li element defines an list item: -->
+        <li>Tea</li> <!-- The li element defines an list item: -->
+        <li>Milk</li> <!-- The li element defines an list item: -->
+    </ul>
+    <h1>The li <mark>value</mark> attribute</h1>
+    <ol>
+        <li value="101">Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem, ipsum dolor.</li>
+    </ol>
+    <h1>A list inside another list</h1>
+    <ul>
+        <!-- The ul element defines an unordered list: -->
+        <li>Coffe</li> <!-- The li element defines an list item: -->
+        <li>Tea
+            <ul>
+                <li>black tea</li>
+                <li>green tea</li>
+            </ul>
+        </li> <!-- The li element defines an list item: -->
+        <li>Milk</li> <!-- The li element defines an list item: -->
+    </ul>
+    <h1>A list in a list in a list (multidimensional list item) </h1>
+    <ul>
+        <!-- The ul element defines an unordered list: -->
+        <li>Coffe</li> <!-- The li element defines an list item: -->
+        <li>Tea
+            <ul>
+                <li>black tea</li>
+                <li>green tea
+                    <ol>
+                        <li>china</li>
+                        <li>africa</li>
+                    </ol>
+                </li>
+            </ul>
+        </li> <!-- The li element defines an list item: -->
+        <li>Milk</li> <!-- The li element defines an list item: -->
+    </ul>
+    <h1>The meter element</h1>
+    <span>disk c:</span> <meter value="2" max="10" min="0"></meter>
+    <span>disk d:</span> <meter value="0.9"></meter>
+    <h1>The optgroup element</h1>
+    <label for="options"></label>
+    <select id="options">
+        <optgroup label="Swedish Cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+        </optgroup>
+        <optgroup label="german Cars">
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </optgroup>
+    </select>
+    <h1>The picture element</h1>
+    <picture>
+        <source media="(min-width: 800px)" srcset="images/download.jpg">
+        <source media="(min-width: 500px)" srcset="images/bluerose.jpg">
+        <img src="images/blackrose.jpg" alt="blackrose">
+    </picture>
+    <h1>The pre element</h1>
+
+    <pre>
+Text in a pre element
+is displayed in a fixed-width
+font, and it preserves
+both      spaces and
+line breaks
+</pre>
+    <h1>The progress element</h1>
+    <span>progressbar:</span><progress max="100" value="35"></progress>
+    <h1>The q element</h1>
+    <p>this is <q>Imran Hossain Emon</q></p>
+    <h1>The s element</h1>
+
+    <p><s>Only 50 tickets left!</s></p>
+    <p>SOLD OUT!</p>
+    <h1>The samp element</h1>
+
+    <p>Message from my computer:</p>
+
+    <p><samp>File not found.<br>Press F1 to continue</samp></p>
+    <h1>The small element</h1>
+
+    <p>This is some normal text.</p>
+    <p><small>This is some smaller text.</small></p>
+    <h1>The strong element</h1>
+
+    <p>This text is normal.</p>
+
+    <p><strong>This text is important!</strong></p>
+    <h1>The sub and sup elements</h1>
+
+    <p> <strong>Water Formula:</strong> H<sub>2</sub>O</p>
+    <p><strong>Math exercise :</strong> a<sup>2</sup> + b<sup>2</sup></p>
+    <h1>The time element</h1>
+
+    <p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+    <h1>The u element</h1>
+    <p>this is <u>underline text</u></p>
+
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+.ml-4{
+    margin-left: 1.5em;
+}
+.ml-3{
+    margin-left: 2em;
+}
+.mb-4{
+    margin-bottom: 1.5em;
+}
+.d-block{
+    display: block;
+}
+.googleMap {
+    width: 100%;
+    height: 500px;
+    border: none;
+}
+.youTubeFrame{
+    width: 600px;
+    height: 400px;
+}
+kbd{
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+label{
+    cursor: pointer;
+}
+legend{
+    font-size: 22px;
+    border: 1px solid black;
+    padding: 5px;
+    background: gray;
+    color: white;
+}
+fieldset{
+    background-color: #eeeeee;
+}
+ul,ol{
+    background-color: #eeeeee;
+    padding: 5em;
+}
+li{
+    font-size: 18pt;
+}
